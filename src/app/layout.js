@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import "@fontsource/open-sauce-two/300.css";
+import "@fontsource/open-sauce-two/400.css";
+import "@fontsource/open-sauce-two/500.css";
+import "@fontsource/open-sauce-two/600.css";
+import "@fontsource/open-sauce-two/700.css";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { cnm } from "@/utils/style";
 
 export const metadata = {
   title: "BlockEstate",
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className} suppressHydrationWarning>
+      <body suppressHydrationWarning className={cnm("font-open-sauce")}>
         {children}
       </body>
     </html>

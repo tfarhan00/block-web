@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-open-sauce: "Open Sauce two", sans-serif;
+}
+
 @layer base {
   .card-location {
     flex: 1 1 20px;

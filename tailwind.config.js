@@ -11,6 +11,9 @@ module.exports = {
         lemongrass: "#E5FD34",
         mossgreen: "#00272C",
       },
+      fontFamily: {
+        "open-sauce": ["var(--font-open-sauce)"],
+      },
     },
   },
   plugins: [],

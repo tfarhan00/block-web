@@ -4,7 +4,7 @@ import { cnm } from "@/utils/style";
 import HowToWork from "../_components/home/HowToWork";
 import { LenisProvider } from "../_providers/LenisProvider";
 import Perks from "../_components/home/Perks/Perks";
-import Navbar from "../_components/home/Navbar";
+import Navbar from "../_components/home/Navbar/Navbar";
 import Hero from "../_components/home/Hero";
 import AboutUs from "../_components/home/AboutUs";
 import Listed from "../_components/home/Listed";
