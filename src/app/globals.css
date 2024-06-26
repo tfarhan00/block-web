@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .card-location {
+    flex: 1 1 20px;
+    transition: 0.3s ease-in-out;
+  }
+  .card-location:hover {
+    flex: 2 1 20px;
+  }
+}
